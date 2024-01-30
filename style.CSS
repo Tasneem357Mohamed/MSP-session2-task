@@ -1,0 +1,214 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+/* Start Nav Bar*/
+.nav-logo {
+    width: 30%;
+    float: left;
+}
+nav
+{
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+}
+.nav_content{
+    width: 40%;
+    float: right;
+}
+.nav-image{
+    width: 15%;
+    float: left;
+}
+.nav-title{
+    width: 40%;
+    float: left;
+    margin: 20px 0px 0px 30px;
+}
+.nav_content ul{
+    list-style: none;
+}
+.nav_content li{
+    float: left;
+    margin: 0px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+.clear-float
+{
+    clear: both;
+}
+/* End Nav Bar */
+/* Start Landing Page */
+.landing-page
+{
+    background-image: url("./assets/background.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.landing-page .container
+{
+    text-align: center;
+    margin-top: 250px;
+}
+.landing-page .container .hello
+{
+    font-size: 20px;
+}
+.landing-page .container .landing-page-title
+{
+    margin: 50px 0px;
+    font-size: 50px;
+}
+.landing-page .container .landing-page-button button
+{
+    padding: 12px 62px 12px 62px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #01A3F1;
+    border-radius: 90px;
+    border-color: #01A3F1;
+    border-style: none;
+}
+/* End Landing Page */
+/* Start social media section*/
+#Social-media-section
+{
+    background-color: #181621;
+    color: white;
+    padding: 50px 0;
+}
+.social-media-item
+{
+    text-align: center;
+}
+.social-media-icon
+{
+    font-size: 30px;
+    color: #01A3F1;
+}
+.social-media-platform
+{
+    padding: 10px 0px;
+}
+.parent-item
+{
+    background-color: #181621;
+    width: 25%;
+    float: left;
+    padding: 30px;
+}
+#Social-media-section .container
+{
+    width: 90%;
+    margin: auto;
+}
+/* end social media section*/
+
+/*  Start About Section */
+#About-Section
+{
+    background-color:#201D2E;
+    height: 450px;
+    padding: 50px;
+}
+#About-Section .title
+{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+#About-Section .box
+{
+    color: #87868E;
+    padding: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+#About-Section .box .d1
+{
+    color: white;
+    background-color: #01A3F1;
+}
+#About-Section .About-Paragraph
+{
+    text-align: center;
+    font-size: 17px;
+    color: #87868E;
+}
+/*  Start About Section */
+
+/*  Start committees Section */
+#Committees
+{
+    background-color: #201D2E;
+    padding: 50px 0px;
+    color: white;
+}
+#Committees .About-container
+{
+    width: 85%;
+    margin: auto;
+}
+#Committees .committee-description
+{
+    color: #87868E;
+    width: 85%;
+}
+#Committees .committee-item
+{
+}
+.float-left
+{
+    float: left;
+}
+.committee-icon
+{
+    font-size: 50px;
+    color: #01A3F1;
+}
+.committee-name
+{
+    padding: 15px 0px 0px 10px ;
+}
+.committee-item-parent
+{
+    width: 33.33%;
+    float: left;
+    padding: 30px;
+}
+/* End committees Section */
+
+/*  Start Work Section */
+#Work-Section
+{
+    padding: 150px;
+    background-color: #181621;
+    height: 150px;
+}
+#Work-Section .work-header
+{
+    background-color: #181621;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.work-paragraph
+{
+    background-color: #181621;
+    color: #87868E;
+    text-align: center;
+    width: 100%;
+}
+/*  End Work Section */
+
